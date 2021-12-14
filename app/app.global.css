@@ -1,0 +1,118 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+  color: #000;
+  margin: 0;
+  overflow: auto;
+  font-family: Roboto, Helvetica, Helvetica Neue, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #000;
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 
+.MuiFormControl-root-78 {
+  width: 100%;
+} */
+
+.MuiSpeedDialAction-staticTooltipLabel {
+  width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px !important;
+  font-weight: 900 !important;
+}
+
+.link-buttons-listings {
+  text-align: center;
+  color: blue;
+  background: none;
+  border: none;
+  white-space: normal;
+  text-overflow: hidden;
+}
+
+.link-buttons-listings:hover {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px #fff;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d5008d;
+}
+
+#listings-table ::-webkit-scrollbar-thumb {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+#orders-table > div,
+#listings-table > div {
+  box-shadow: none;
+}
+
+.MuiSkeleton-root {
+  /* #e01789 */
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.MuiPagination-ul {
+  justify-content: center;
+}
+
+.react-notification-root {
+  z-index: 99999999999999;
+}
+
+.notification-container-bottom-left,
+.notification-container-bottom-right {
+  bottom: 100px !important;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "HOME": "/",
+  "AUTOORDER": "/autoorder",
+  "EDIT_ORDER": "/edit-order",
+  "LISTINGS": "/listings",
+  "ADD_LISTING": "/add-listing",
+  "ADD_LISTING_VARIATION": "/add-listing-variation",
+  "EDIT_LISTING": "/edit-listing",
+  "LOGS": "/logs",
+  "REPRICER_STATISTICS": "/repricer-statistics",
+  "LOGIN": "/login",
+  "TEST": "/test"
+}

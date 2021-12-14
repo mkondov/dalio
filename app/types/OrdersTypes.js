@@ -1,0 +1,37 @@
+// @flow
+import type { Account } from './AccountsTypes';
+
+export type Order = {
+  id: number,
+  status: string,
+  status_code: string,
+  ordered_by: null | 'dalio' | 'user',
+  store_id: string,
+  tracking_number: string | null,
+  buyer_email: string | null,
+  buyer_name: string | null,
+  buyer_phone: string,
+  date_sold: string,
+  image: string,
+  item_name: string,
+  matched_listing_store_id: string | null,
+  order_number: string,
+  post_to_address_field: string,
+  post_to_address_field2: string,
+  post_to_address_city: string,
+  post_to_address_country: string,
+  post_to_address_name: string,
+  post_to_address_postcode: string,
+  post_to_address_state_province: string,
+  postage_method: string,
+  quantity: string,
+  sold_for: string,
+  source_order_number: string | null,
+  store: string | null,
+  store_marketplace: string | null,
+  supplier: string | null,
+  supplier_id: string | null,
+  supplier_url: string | null,
+  synced_at: string,
+  order_with_account?: Account
+};
